@@ -12,8 +12,8 @@ function Header() {
   return (
     <header className="container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
-        {/* <NavLink to="/">
-          <img className="w-14" src={logos.logogradient} alt="logo" />
+        <NavLink to="/">
+          {/* <img className="w-14" src={logos.logogradient} alt="logo" /> */}
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
@@ -31,7 +31,7 @@ function Header() {
               strokeLinejoin="round"
             />
           </svg>
-        </div> */}
+        </div>
       </div>
       <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between w-full`}>
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
@@ -60,6 +60,10 @@ function Header() {
               Contact
             </NavLink>
           </li>
+          <li>
+            <a href="/documents/cv.pdf" download="cv.pdf">My CV</a>
+          </li>
+
         </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
           <li>
