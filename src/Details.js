@@ -20,6 +20,7 @@ import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 // Porject Images
+import projectImage0 from "./assets/projects/project0.png";
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
@@ -105,6 +106,14 @@ export const techStackDetails = {
 
 // Enter your Project Details here
 export const projectDetails = [
+  {
+    title: "usa persona",
+    image: projectImage0,
+    description: `This project aims to reproduce a figma design on web, tablet and mobice plateform.`,
+    techstack: "HTML5, Tailwind.css",
+    previewLink: "https://usa-personna.vercel.app/",
+    githubLink: "https://gitlab.com/dev7443146/usa-personna",
+  },
   {
     title: "post-it",
     image: projectImage1,
