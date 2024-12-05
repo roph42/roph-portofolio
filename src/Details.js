@@ -121,7 +121,7 @@ export const projectDetails = [
     an intuitive interface for reviewing and getting insights about movies. User can see reviews and can review movies.`,
     techstack: "Next.js, Tailwind.css, MongoDB",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/roph42/premoview",
   },
   {
     title: "twp",
@@ -131,7 +131,7 @@ export const projectDetails = [
     with them.`,
   techstack: "Vue.js, Tailwind, Wordpress API",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/roph42/C-DEV-121-COT-1-2-twp-aurdhas.houndegnon-denakpo",
   },
 //   {
 //     title: "Project title 4",
