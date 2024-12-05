@@ -61,7 +61,7 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <a href="/documents/cv.pdf" download="cv.pdf">My CV</a>
+            <a href="/documents/rophen-padonou-cv.pdf" download="rophen-padonou-cv.pdf">My CV</a>
           </li>
 
         </ul>
